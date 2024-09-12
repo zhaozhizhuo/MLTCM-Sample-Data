@@ -6,5 +6,9 @@ The repository contains a dataset we constructed for a multi-label syndrome diff
 
 For now, we have only provided three sample entries along with the code for classification using large model inference capabilities, for those interested in exploring the task.
 
+Specifically, we used three open-source large models: Huatuo, Bencao, and LLaMA 3, as well as a closed-source high-performance model like ChatGPT for inference. We placed the corresponding code in Python files named after each model.
+You only need to run the Python script to perform inference. For example, if you want to use ChatGPT for inference, simply place your API key in the appropriate location in the `chat_openai4.py` file, then run `python chat_openai4.py` to generate the corresponding predictions from the model.
+Additionally, we have provided three sample data points in `sample_data.txt`. To further assist future work, we have also placed explanation files for each diagnosis type in the `knowledge.json` file. Each entry in the file details the manifestations of a specific diagnosis type and the required medications.
+
 
 **Stay tuned!**
